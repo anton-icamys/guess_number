@@ -8,9 +8,9 @@ while True:
 
     if guest < number:
         print('Ваше число меньше того, что загадано.')
-    if guest > number:
+    elif guest > number:
         print('Ваше число больше того, что загадано.')
-    if guest == number:
+    elif guest == number:
         break
 
 print('Отличная интуиция! Вы угадали число :)')  
